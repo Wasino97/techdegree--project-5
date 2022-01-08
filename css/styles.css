@@ -1,0 +1,21 @@
+#search {
+    padding: 0.7rem;
+    margin: 2rem 0;
+    width: 50vw;
+}
+
+nav {
+    text-align: center;
+}
+
+.grid {
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 30px 30px;
+}
+
+.image_1 {
+    display: grid;
+
+}
