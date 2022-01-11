@@ -1,5 +1,5 @@
 * {
-    max-width: 1000px;
+    box-sizing: border-box;
     margin: auto;
 }
 
@@ -13,20 +13,16 @@ nav {
     text-align: center;
 }
 
-div {
-    margin: ;
+body {
+    margin: auto;
+    max-width: 1000px;
 }
 
-.grid {
+.gallery {
     display: grid;
     margin: .5rem auto 2rem auto;
     grid-template-columns: repeat(auto-fit,200px);
     grid-row-gap: 23px;
     grid-column-gap: 29px;
     justify-content: center;
-}
-
-.image_1 {
-    display: grid;
-
 }
